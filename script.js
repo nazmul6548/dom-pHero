@@ -65,3 +65,23 @@ bodyt.appendChild(div);
 function myFunc() {
     document.write('new addition')
 }
+
+
+function myFName() {
+    document.getElementById('emptyTag').innerText='yes i am present'
+}
+
+function myDate() {
+    const myDateElement = document.getElementById('paraEmpty');
+    myDateElement.innerText  = Date();
+}
+
+const myarray = () => {
+    document.body.style.backgroundColor= 'purple';
+}
+
+const newcol = document.getElementById('newCo');
+newcol.onclick = myNewcol;
+function myNewcol() {
+    document.body.style.backgroundColor= "blue"
+}
