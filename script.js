@@ -101,3 +101,12 @@ const addnew = document.getElementById('explore-id');
     const changetext = document.getElementById('emptyTag');
     changetext.innerText ="ami change hoy gc ager moto nai"
   });
+
+
+  const addevent = document.getElementById('submit-add');
+  addevent.addEventListener('click',function () {
+    const addthe = document.getElementById('email-id');
+    const store = addthe.value
+    const pratag = document.getElementById('normal-id');
+    pratag.innerText =  store
+  });
