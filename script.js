@@ -85,3 +85,19 @@ newcol.onclick = myNewcol;
 function myNewcol() {
     document.body.style.backgroundColor= "blue"
 }
+
+const clicks = document.getElementById('click-me');
+clicks.addEventListener('click',function makeAlert() {
+    alert('hello mia  vai')
+});
+
+const subscribess = document.getElementById('subscribes');
+subscribess.addEventListener('click',function makeAlert() {
+    document.body.style.backgroundColor= "blue"
+});
+
+const addnew = document.getElementById('explore-id');
+  addnew.addEventListener('click',function makeAlert() {
+    const changetext = document.getElementById('emptyTag');
+    changetext.innerText ="ami change hoy gc ager moto nai"
+  });
