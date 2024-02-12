@@ -1,17 +1,17 @@
-const resulta = document.getElementsByTagName('h1');
-console.log(resulta);
-const result = document.querySelectorAll('.hello');
-console.log(result);
-for (let i = 0; i < result.length; i++) {
-    console.log(result[i].innerText="jishani");
+// const resulta = document.getElementsByTagName('h1');
+// console.log(resulta);
+// const result = document.querySelectorAll('.hello');
+// console.log(result);
+// for (let i = 0; i < result.length; i++) {
+//     console.log(result[i].innerText="jishani");
     
-}
-const mytagName = document.getElementById('nameId');
-mytagName.style.backgroundColor="red";
-mytagName.style.color="green";
-mytagName.style.fontSize="100px";
-mytagName.style.padding="20px";
-mytagName.style.textAlign="center";
+// }
+// const mytagName = document.getElementById('nameId');
+// mytagName.style.backgroundColor="red";
+// mytagName.style.color="green";
+// mytagName.style.fontSize="100px";
+// mytagName.style.padding="20px";
+// mytagName.style.textAlign="center";
 
 // const body = document.getElementById('bodys');
 // const div = document.createElement('div');
@@ -43,71 +43,77 @@ mytagName.style.textAlign="center";
 
 // body.appendChild(div);
 
-const bodyt = document.getElementById('bodys');
+// const bodyt = document.getElementById('bodys');
 
-const div = document.createElement('div');
-div.innerHTML = `
-          <h1> this is tittle </h2>
-          <p>lorem ipsum dolor sit am </p>
-          <ul>
-          <li>home</li>
-          <li>about</li>
-          <li>skill</li>
-          </ul>
-`
-div.style.backgroundColor ="red";
-div.style.padding ="10px"
-
-
-bodyt.appendChild(div);
+// const div = document.createElement('div');
+// div.innerHTML = `
+//           <h1> this is tittle </h2>
+//           <p>lorem ipsum dolor sit am </p>
+//           <ul>
+//           <li>home</li>
+//           <li>about</li>
+//           <li>skill</li>
+//           </ul>
+// `
+// div.style.backgroundColor ="red";
+// div.style.padding ="10px"
 
 
-function myFunc() {
-    document.write('new addition')
-}
+// bodyt.appendChild(div);
 
 
-function myFName() {
-    document.getElementById('emptyTag').innerText='yes i am present'
-}
+// function myFunc() {
+//     document.write('new addition')
+// }
 
-function myDate() {
-    const myDateElement = document.getElementById('paraEmpty');
-    myDateElement.innerText  = Date();
-}
 
-const myarray = () => {
-    document.body.style.backgroundColor= 'purple';
-}
+// function myFName() {
+//     document.getElementById('emptyTag').innerText='yes i am present'
+// }
 
-const newcol = document.getElementById('newCo');
-newcol.onclick = myNewcol;
-function myNewcol() {
-    document.body.style.backgroundColor= "blue"
-}
+// function myDate() {
+//     const myDateElement = document.getElementById('paraEmpty');
+//     myDateElement.innerText  = Date();
+// }
 
-const clicks = document.getElementById('click-me');
-clicks.addEventListener('click',function makeAlert() {
-    alert('hello mia  vai')
+// const myarray = () => {
+//     document.body.style.backgroundColor= 'purple';
+// }
+
+// const newcol = document.getElementById('newCo');
+// newcol.onclick = myNewcol;
+// function myNewcol() {
+//     document.body.style.backgroundColor= "blue"
+// }
+
+// const clicks = document.getElementById('click-me');
+// clicks.addEventListener('click',function makeAlert() {
+//     alert('hello mia  vai')
+// });
+
+// const subscribess = document.getElementById('subscribes');
+// subscribess.addEventListener('click',function makeAlert() {
+//     document.body.style.backgroundColor= "blue"
+// });
+
+// const addnew = document.getElementById('explore-id');
+//   addnew.addEventListener('click',function makeAlert() {
+//     const changetext = document.getElementById('emptyTag');
+//     changetext.innerText ="ami change hoy gc ager moto nai"
+//   });
+
+
+//   const addevent = document.getElementById('submit-add');
+//   addevent.addEventListener('click',function () {
+//     const addthe = document.getElementById('email-id');
+//     const store = addthe.value
+//     const pratag = document.getElementById('normal-id');
+//     pratag.innerText =  store;
+//     addthe.value = ''
+//   });
+
+
+
+document.querySelector('#heading-tag').addEventListener('dblclick' , (e) => { 
+    console.log(e);
 });
-
-const subscribess = document.getElementById('subscribes');
-subscribess.addEventListener('click',function makeAlert() {
-    document.body.style.backgroundColor= "blue"
-});
-
-const addnew = document.getElementById('explore-id');
-  addnew.addEventListener('click',function makeAlert() {
-    const changetext = document.getElementById('emptyTag');
-    changetext.innerText ="ami change hoy gc ager moto nai"
-  });
-
-
-  const addevent = document.getElementById('submit-add');
-  addevent.addEventListener('click',function () {
-    const addthe = document.getElementById('email-id');
-    const store = addthe.value
-    const pratag = document.getElementById('normal-id');
-    pratag.innerText =  store;
-    addthe.value = ''
-  });
