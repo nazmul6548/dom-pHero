@@ -108,5 +108,6 @@ const addnew = document.getElementById('explore-id');
     const addthe = document.getElementById('email-id');
     const store = addthe.value
     const pratag = document.getElementById('normal-id');
-    pratag.innerText =  store
+    pratag.innerText =  store;
+    addthe.value = ''
   });
