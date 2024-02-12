@@ -114,6 +114,26 @@
 
 
 
-document.querySelector('#heading-tag').addEventListener('dblclick' , (e) => { 
-    console.log(e);
-});
+// document.querySelector('#heading-tag').addEventListener('keydown' , (e) => { 
+//     console.log(e);
+// });
+
+document.querySelector('#button-id').addEventListener('mouseup',() => {
+    
+    const textareainput = document.querySelector('#textArea');
+    const commentbox = textareainput.value;
+
+    const commentplaceholder =document.querySelector('#comment-Place');
+
+    const makeTag = document.createElement('h2');
+    makeTag.style.backgroundColor = "pink"
+    makeTag.style.padding ="10px";
+    makeTag.style.width ='300px';
+    makeTag.style.borderRadius ='10px';
+    
+    makeTag.innerText=commentbox;
+
+    commentplaceholder.appendChild(makeTag);
+
+    textareainput.value = ""
+})

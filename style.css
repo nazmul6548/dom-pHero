@@ -1,0 +1,25 @@
+#button-id {
+  background-color: rgb(171, 171, 146);
+  color: rgb(255, 255, 255);
+  padding: 12px 52px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+#button-id:hover {
+  background-color: black;
+  color: cyan;
+}
+
+body {
+  background-color: aqua;
+}
+#textArea {
+  font-size: 20px;
+}
+::placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
