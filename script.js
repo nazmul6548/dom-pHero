@@ -137,3 +137,13 @@ document.querySelector('#button-id').addEventListener('mouseup',() => {
 
     textareainput.value = ""
 })
+
+
+const menuBanasci = document.getElementById("menu");
+const items = ['home','about','skill','contact'];
+const makelist = items.map((makeitems) => {
+    const li = document.createElement('li');
+    li.textContent = makeitems;
+    return li;
+});
+ menuBanasci.append(...makelist);
